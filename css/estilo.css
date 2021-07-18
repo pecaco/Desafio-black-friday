@@ -1,0 +1,73 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background:url('../assets/bg.jpg')
+}
+.banner{
+    position: relative;
+    height: 600px;
+    width: 940px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    padding: 20px;    
+}
+
+.formulario{
+    width: 940px;    
+    margin: 0 auto;
+}
+h1{
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+
+}
+.formulario form{
+    position: relative;
+    width: 200px;
+    padding: 100px 0;
+    margin: 0 auto;
+    
+}
+input{
+    border: none;
+    font-size: 1.2em;
+    width: 200px;
+    padding: 15px;
+    margin-top: 15px;    
+}
+.submit{
+    
+    border: none;
+    padding: 15px 0;
+    margin: 15px 12px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    background: grey;
+    transition: 1s all;
+}
+
+.submit:hover{
+    color: black;
+    background: red;    
+    transform: scale(1.1);
+}
+
+
+footer{
+    
+    text-align: center;
+    padding: 40px 0;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+}
